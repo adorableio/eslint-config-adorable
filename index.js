@@ -8,6 +8,10 @@ module.exports = {
     "node": true,
   },
 
+  "extends": [
+    "plugin:react/recommended",
+  ],
+
   "plugins": [
     "react"
   ],
@@ -40,8 +44,9 @@ module.exports = {
     "func-names": "off",
     "func-style": "off",
     "guard-for-in": "error",
-    "indent": ["error", "error", { "SwitchCase": 1 }],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": "off",
+    "keyword-spacing": "error",
     "max-depth": "off",
     "max-len": ["error", 120],
     "max-nested-callbacks": "off",
@@ -63,7 +68,6 @@ module.exports = {
     "no-dupe-keys": "error",
     "no-else-return": "off",
     "no-empty-character-class": "error",
-    "no-empty-label": "error",
     "no-empty": "error",
     "no-eq-null": "error",
     "no-eval": "error",
@@ -84,6 +88,7 @@ module.exports = {
     "no-iterator": "error",
     "no-label-var": "error",
     "no-labels": "error",
+    "no-labels": "error",
     "no-lone-blocks": "error",
     "no-lonely-if": "error",
     "no-loop-func": "error",
@@ -101,7 +106,7 @@ module.exports = {
     "no-obj-calls": "error",
     "no-octal-escape": "error",
     "no-octal": "error",
-    "no-plusplus": "off"
+    "no-plusplus": "off",
     "no-process-env": "off",
     "no-proto": "error",
     "no-redeclare": "error",
@@ -137,11 +142,9 @@ module.exports = {
     "semi-spacing": ["error", { "before": false, "after": true }],
     "semi": ["error", "always"],
     "sort-vars": ["error", { "ignoreCase": true }],
-    "space-after-keywords": "error",
     "space-before-blocks": "error",
     "space-in-parens": "error",
     "space-infix-ops": "error",
-    "space-return-throw-case": "error",
     "space-unary-ops": "error",
     "spaced-comment": "error",
     "strict": ["error", "global"],
