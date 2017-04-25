@@ -15,3 +15,11 @@ Add to your `package.json` file
   "extends": [ "adorable" ]
 }
 ```
+
+or `.eslintrc`
+
+```json
+{
+  "extends": "adorable"
+}
+```
