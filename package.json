@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/adorableio/eslint-config-adorable",
   "author": "Kevin Altman <kevin@itsthatguy.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
+  }
 }
