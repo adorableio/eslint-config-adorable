@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-adorable",
+  "version": "0.0.0",
+  "description": "JavaScript ESLint lint configuration used by the Adorable team.",
+  "main": "index.js",
+  "repository": "https://github.com/adorableio/eslint-config-adorable",
+  "author": "Kevin Altman <kevin@itsthatguy.com>",
+  "license": "MIT"
+}
