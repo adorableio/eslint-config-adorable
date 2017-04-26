@@ -36,7 +36,7 @@ module.exports = {
     "complexity": "off",
     "consistent-return": "error",
     "consistent-this": "off",
-    "curly": ["error", "multiline"],
+    "curly": ["error", "multi-line"],
     "default-case": "error",
     "dot-notation": "error",
     "eol-last": "error",
